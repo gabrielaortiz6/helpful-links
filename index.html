@@ -4,29 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Helpful Links</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<header>
+<header class="center">
     <h1>Helpful Links and Cheatsheets</h1>
+    <h4>Navigation</h4>
+    <nav class="nav">
+        <a class="nav" href="#git">Git</a> 
+        <a class="nav" href="#gitlab">Gitlab</a> 
+        <a class="nav" href="#github">GitHub</a> |
+        <a class="nav" href="#html">HTML</a> 
+        <a class="nav" href="#css">CSS</a> 
+        <a class="nav" href="#javascript">JavaScript</a> |
+        <a class="nav" href="#misc">Misc</a>
+      </nav>
 </header>
-
+<br>
+<br>
 <body>
-    <section class="section-1">
-        <h2> Git Command/Terminal</h2>
-        <p>Includes info on moving/creating directories and files,
+    <section class="section">
+        <h2 id="git"> Git Command/Terminal</h2>
+        <br>
+        <p id="first-p">Includes info on moving/creating directories and files,
             as well as working with repositories.</p>
         <ul>
-            <li><a href="" target="blank">Git Repositories</a></li>
+            <li><a href="https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository" target="blank">Git Repositories #1</a></li>
+            <li><a href="https://www.atlassian.com/git/tutorials/setting-up-a-repository" target="blank">Git Repositories #2</a></li>
             <li><a href="https://github.com/0nn0/terminal-mac-cheatsheet#english-version" target="blank">
                 Git for Mac Terminal</a></li>
-            <li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="blank">Git Cheat Sheet #1</a></li>
-            <li><a href="file:///Users/marilinlago/Downloads/CommandLine%20Cheatsheet%20(2).pdf" target="blank">Git Cheatsheet #2 (more repo/staging/commit info)</a></li>
-            <li><a href="https://www.youtube.com/watch?v=USjZcfj8yxE&t=323s&ab_channel=ColtSteele" target="blank">Git Video</a></li>
+            <li><a href="https://education.github.com/git-cheat-sheet-education.pdf" target="blank">Git Cheatsheet #1</a></li>
+            <li><a href="./CommandLine Cheatsheet (3).pdf" download>Git Cheatsheet #2 (PDF)</a></li>
+            <li><a href="https://github.com/0nn0/git-basics-cheatsheet" target="blank">Git Cheatsheet #3</a></li>
         </ul>
-        <h2>Gitlab</h2>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/USjZcfj8yxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section class="section">
+        <h2 id="gitlab">Gitlab</h2>
         <ul>
             <li><a href="https://unchar.bootcampcontent.com/help/user/ssh.md" target="blank">SSH Key for Gitlab</a></li>
-        </ul>
-            <p>Already added an ssh key to your computer and need to copy it to GitHub or GitLab? Use one of these commands to copy -
+            <li><a href="https://superuser.com/questions/1309683/how-do-i-download-my-whole-repository-from-gitlab" target="blank">How to Download Repo from Gitlab</a></li>
+            <br>
+            <p id="third-bullet">Already added an ssh key to your computer and need to copy it to GitHub or GitLab? 
+                <br>
+                <br>
+                Use one of these commands to copy -
+                <br>
                 <br>
                 <br>
                 Mac:
@@ -37,54 +60,62 @@
                 Windows:
                 <br>
                 cat ~/.ssh/id_ed25519.pub | clip</p>
-        <h2>Github</h2>
+        </ul>
+    </section>
+    <section class="section">
+        <h2 id="github">Github</h2>
         <ul>
             <li><a href="https://digital.gov/resources/an-introduction-github/" target="blank">Intro to Github</a></li>
             <li><a href="https://courses.bootcampspot.com/courses/3206/pages/2-dot-4-3-connect-our-local-environment-to-our-github-repository?module_item_id=823736" target="blank">How to Clone Github Repo using SSH</a></li>
-            <li><a href="https://www.youtube.com/watch?v=nhNq2kIvi9s&amp;t=260s&ab_channel=ColtSteele" target="blank">Video</a></li>
-            <li><a href="https://courses.bootcampspot.com/courses/3206/pages/2-dot-2-6-set-up-ssh-keys?module_item_id=823694" target="blank">SSH Key for Github</a></li>
+            <li><a href="./README-for-creating-local-repo.md" target="blank">Creating Local Repo (Then Cloning to GitHub)</a></li>
+            <li><a href="https://courses.bootcampspot.com/courses/3206/pages/2-dot-2-6-set-up-ssh-keys?module_item_id=823694" target="blank">More on SSH Key for Github</a></li>
         </ul>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nhNq2kIvi9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </section>
-
-    <section>
-        <h2>HTML</h2>
+    <section class="section">
+        <h2 id="html">HTML</h2>
         <ul>
             <li><a href="https://websitesetup.org/wp-content/uploads/2019/10/WSU-HTML-Cheat-Sheet.pdf" target="blank">
-            Cheatsheet #1</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="blank">HTML Elements Reference</a></li>
+            HTML Cheatsheet #1</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="blank">HTML Elements</a></li>
             <li><a href="https://www.w3schools.com/html/html_accessibility.asp" target="blank">HTML Accessibility Cheatsheet</a></li>
         </ul>
     </section>
-
-    <section>
-        <h2>CSS</h2>
+    <section class="section">
+        <h2 id="css">CSS</h2>
         <ul>
             <li><a href="https://websitesetup.org/wp-content/uploads/2016/10/wsu-css-cheat-sheet.pdf" target="blank">
-            Cheatsheet #1</a></li>
+            CSS Cheatsheet #1</a></li>
             <li><a href="https://www.codecademy.com/learn/paths/front-end-engineer-career-path/tracks/fecp-22-fundamentals-of-css/modules/wdcp-22-learn-css-selectors-and-visual-rules/cheatsheet" target="_blank">CSS Fundamentals Cheatsheet #2</a></li>
             <li><a href="https://www.cssfontstack.com/" target="blank">List of Web Safe CSS Fonts</a></li>
-            <li><a href="https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" target="blank">Rem Units (better for mobile friendliness)</a></li>
+            <li><a href="https://www.w3schools.com/cssref/css_colors.php" target="blank">CSS Sample Colors</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model" target="blank">CSS Box Model Intro</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="blank">Pseudo Class Selectors</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="blank">Pseudo Element Selectors</a></li>
+            <li><a class="span" href="https://css-tricks.com/quick-reminder-about-file-paths/" target="blank"><span class="span" title="i.e. for images not being linked to internet">CSS Relative File Path</span></a></li>
+            <li><a class="span" href="https://www.sitepoint.com/understanding-and-using-rem-units-in-css/" target="blank"><span class="span" title="better for mobile friendliness">Rem Units</span></a></li>
         </ul>
     </section>
-
-    <section>
-        <h2>JavaScript</h2>
+    <section class="section">
+        <h2 id="javascript">JavaScript</h2>
         <ul>
+            <li><a href="https://github.com/mbeaudru/modern-js-cheatsheet#modern-javascript-cheatsheet" target="blank">JavaScript Explanation</a></li>
             <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" target="blank">
             Data Types and Data Structures</a></li>
+            <li><a href="https://htmlcheatsheet.com/js/" target="blank">JavaScript Cheatsheet</a></li>
         </ul>
     </section>
-
-    <section>
-        <h2>Misc</h2>
-        <h3>README</h3>
+    <section class="section">
+        <h2 id="misc">Misc</h2>
         <ul>
             <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide" target="blank">
              README Guide</a></li>
-            <li><a href="https://courses.bootcampspot.com/courses/3206/pages/2-dot-2-6-set-up-ssh-keys?module_item_id=823694" blank="target">SSH Keys</a></li>
+             <li><a href="#">More To Be Added</a></li>
         </ul>
-        <h3>SSH Keys</h3>
     </section>
 </body>
-
+<footer class="footer">
+    <p class="footer">Created by Gabriela Ortiz | <a id="github-link" href="https://github.com/gabrielaortiz6/helpful-links" target="blank">GitHub</a></p>
+</footer>
 </html>

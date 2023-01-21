@@ -1,0 +1,97 @@
+/*
+
+create readme
+
+push/commit
+*/
+
+* {
+    background-color: #e6e6fa;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+h4 {
+    margin-bottom: 5px;
+    color: #2D3033;
+}
+
+span {
+    background-color: white;
+  }
+
+a,
+ul,
+li {
+    color: #6D7B8D;
+    font-size: larger;
+    background-color: white;
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+
+h1,
+h4,
+.nav {
+    background-color: #fffacd;
+  }
+ 
+  h2,
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: #fffacd;
+  }
+
+  .section {
+  margin: auto;
+  margin-bottom: 65px;
+  width: 75%;
+  border: 3px solid;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  }
+
+  .footer,
+#github-link {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-size: small;
+}
+
+  #third-bullet,
+  #first-p {
+    margin: auto;
+    width: 55%;
+    height: 40%;
+    border: 3px solid;
+    padding: 10px;
+    text-align: center;
+    background-color: lightgrey;
+    color: black;
+    font-size: small;
+  }
+
+  #github-link {
+    background-color: #e6e6fa;
+    color: gray;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+
+  a:visited {
+    color: pink;
+  }
